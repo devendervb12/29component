@@ -3,7 +3,11 @@
 		 controllerName="smax.batch29.A2.controller.Page2">
 	<Page title="Page 2">
 		<content>
-	          <Button text="Back"  icon="sap-icon://nav-back" press="goBack"/>
+		<VBox>
+	          <Text text="{ProductID}"/>
+	          <Text text="{Name}"/>
+	          <Text text="{Category}"/>
+		</VBox>
 		</content>
 	</Page>
 </core:View>

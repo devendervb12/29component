@@ -30,7 +30,7 @@
 					
 					
 				},{
-					"pattern" : "todetails",
+					"pattern" : "todetails/{pid}",
 					"name" : "rPage2",
 					"viewName" : "smax.batch29.A2.view.Page2"
 					
